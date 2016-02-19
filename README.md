@@ -2,8 +2,13 @@ PostCSS plugin for basisjs-tools
 
 ## Install
 
+### Install plugin
 ```
-npm install basisjs-tools-postcss-plugin postcss autoprefixer [any-postcss-plugin]
+npm install --save-dev basisjs-tools-postcss-plugin
+```
+### Install PostCSS and plugins you want
+```
+npm install --save-dev postcss autoprefixer postcss-cssnext
 ```
 
 ## Usage
@@ -16,8 +21,7 @@ Add to basis.config these settings:
       "options": {
         "processors": [
           "autoprefixer",
-          "postcss-cssnext",
-          ...
+          "postcss-cssnext"
         ]
       }
     }
@@ -47,8 +51,7 @@ For more custom configuration use:
                 "customProperties": false
               }
             }
-          },
-          ...
+          }
         ]
       }
     }
