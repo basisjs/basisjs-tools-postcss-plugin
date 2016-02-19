@@ -1,3 +1,5 @@
+[![npm](https://img.shields.io/npm/v/basisjs-tools-postcss-plugin.svg)](https://www.npmjs.com/package/basisjs-tools-postcss-plugin)
+
 PostCSS plugin for basisjs-tools
 
 ## Install
