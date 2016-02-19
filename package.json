@@ -1,8 +1,9 @@
 {
   "name": "basisjs-tools-postcss-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Postcss plugin for basisjs-tools",
-  "repository": "wuzyk/basisjs-tools-postcss-plugin",
+  "homepage": "https://github.com/basisjs/basisjs-tools-postcss-plugin",
+  "repository": "basisjs/basisjs-tools-postcss-plugin",
   "author": "Vladimir Ratsev <vratsev@gmail.com>",
   "license": "MIT"
 }
